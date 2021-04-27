@@ -19,7 +19,9 @@
         "url": "https://github.com/WebPajooh/chrome-eshteb/issues"
     },
     "homepage": "https://github.com/WebPajooh/chrome-eshteb#readme",
-    "dependencies": {},
+    "dependencies": {
+        "hotkeys-js": "^3.8.3"
+    },
     "devDependencies": {
         "babel-minify-webpack-plugin": "^0.2.0",
         "copy-webpack-plugin": "^8.1.1",
