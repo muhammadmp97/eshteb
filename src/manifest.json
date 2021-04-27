@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Eshteb",
+    "description": "An extension that reduces your anger!",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
