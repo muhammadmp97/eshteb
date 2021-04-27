@@ -1,5 +1,10 @@
-import hotkeys from 'hotkeys-js'
+import $ from 'jquery'
+import convert from './converter'
 
-hotkeys('ctrl+space', () => {
-    // TODO
-})
+document.onkeyup = function (e) {
+    var event = $.event.fix(e || window.event)
+
+    if (event.which == 69 && event.ctrlKey && event.shiftKey) {
+        event.target.value = convert(event.target.value)
+    }
+}
