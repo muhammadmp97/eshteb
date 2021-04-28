@@ -1,7 +1,6 @@
 {
     "name": "chrome-eshteb",
     "version": "1.0.0",
-    "description": "",
     "scripts": {
         "build": "npx webpack --env=prod"
     },

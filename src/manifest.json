@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Eshteb",
-    "description": "An extension that reduces your anger!",
+    "description": "We Iranian people use two languages: English and Persian. Sometimes we write something in Persian with English keyboard, and this is awful! This extension can reduce anger and solve the problem a little!",
     "version": "1.0.0",
     "content_scripts": [
         {
