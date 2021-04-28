@@ -10,7 +10,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: "src/*.(json)",
+                    from: "src/*.(json|png)",
                     to: "[name][ext]"
                 },
             ],

@@ -1,14 +1,28 @@
 {
     "manifest_version": 3,
     "name": "Eshteb",
-    "description": "We Iranian people use two languages: English and Persian. Sometimes we write something in Persian with English keyboard, and this is awful! This extension can reduce anger and solve the problem a little!",
+    "description": "We Iranian people use two languages: English and Persian. Sometimes we write something in Persian with English keyboard, and this is awful! This extension can reduce anger and solve the problem a little by pressing Ctrl+Shift+E!",
     "version": "1.0.0",
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": [
+                "<all_urls>"
+            ],
             "js": [
                 "main.js"
             ]
         }
-    ]
+    ],
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "commands": {
+        "Fix": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+E"
+            },
+            "description": "مشکل را حل می‌کند"
+        }
+    }
 }
