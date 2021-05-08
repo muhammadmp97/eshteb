@@ -1,23 +1,24 @@
 {
-    "name": "chrome-eshteb",
+    "name": "eshteb",
     "version": "1.0.0",
     "scripts": {
         "build": "npx webpack --env=prod"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/WebPajooh/chrome-eshteb.git"
+        "url": "git+https://github.com/WebPajooh/eshteb.git"
     },
     "keywords": [
         "chrome",
+        "firefox",
         "typing",
         "persian"
     ],
     "author": "WebPajooh",
     "bugs": {
-        "url": "https://github.com/WebPajooh/chrome-eshteb/issues"
+        "url": "https://github.com/WebPajooh/eshteb/issues"
     },
-    "homepage": "https://github.com/WebPajooh/chrome-eshteb#readme",
+    "homepage": "https://github.com/WebPajooh/eshteb#readme",
     "dependencies": {
         "jquery": "^3.6.0"
     },
