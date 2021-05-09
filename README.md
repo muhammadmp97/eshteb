@@ -10,5 +10,5 @@ Reduces the anger of an Iranian when typing in the wrong language!
 - Test it by pressing `Ctrl+Shift+F`
 
 # Install it directly
-If you're using Firefox, you can install the extension with ease:
-https://addons.mozilla.org/en-US/firefox/addon/eshteb/
+If you're using Firefox, you can install the extension with ease:  
+[https://addons.mozilla.org/en-US/firefox/addon/eshteb/](https://addons.mozilla.org/en-US/firefox/addon/eshteb/)
